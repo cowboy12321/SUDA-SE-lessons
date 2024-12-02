@@ -1,0 +1,146 @@
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\bin\Debug\SerialPort.exe.config
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\bin\Debug\SerialPort.exe
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\bin\Debug\SerialPort.pdb
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SerialPort.exe
+C:\Users\WYH\Desktop\08-C#2013串口测试程序-190502\obj\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\bin\Debug\SerialPort.exe.config
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\bin\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\bin\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020408\obj\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.exe.config
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.pdb
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.exe.config
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.exe
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\bin\Debug\SerialPort.pdb
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.exe
+C:\Users\WYH\Desktop\C#2019串口测试程序-2020427\obj\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\bin\Debug\SerialPort.exe.config
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\bin\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\bin\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200507\obj\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\bin\Debug\SerialPort.exe.config
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\bin\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\bin\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\C#2019串口测试程序-20200508\obj\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\bin\Debug\SerialPort.exe.config
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\bin\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\bin\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\C#2019串口测试程序-20200509\obj\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\bin\Debug\SerialPort.exe.config
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\bin\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\bin\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\Test\C#2019串口测试程序-20200509\obj\Debug\SerialPort.pdb
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\bin\Debug\SerialPort.exe.config
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\bin\Debug\SerialPort.exe
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\bin\Debug\SerialPort.pdb
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SCI.csprojAssemblyReference.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SerialPort.FrmSCI.resources
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SerialPort.Properties.Resources.resources
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SCI.csproj.GenerateResource.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SerialPort.exe
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿\C#2019串口测试程序+时间比对\obj\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\时间比对程序\bin\Debug\SerialPort.exe.config
+C:\Users\liuxiao\Desktop\时间比对程序\bin\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\时间比对程序\bin\Debug\SerialPort.pdb
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SerialPort.exe
+C:\Users\liuxiao\Desktop\时间比对程序\obj\Debug\SerialPort.pdb
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\bin\Debug\SerialPort.exe.config
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\bin\Debug\SerialPort.exe
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\bin\Debug\SerialPort.pdb
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SCI.csprojAssemblyReference.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SerialPort.FrmSCI.resources
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SerialPort.Properties.Resources.resources
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SCI.csproj.GenerateResource.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SerialPort.exe
+E:\Learn-2020\01-learn\Book Draft\嵌入式基础第六版\CH07-SysTick程序和书稿-20201223\时间测试程序-20201223\obj\Debug\SerialPort.pdb
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\bin\Debug\SerialPort.exe.config
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\bin\Debug\SerialPort.exe
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\bin\Debug\SerialPort.pdb
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SerialPort.exe
+C:\Users\dufresne\Desktop\liuxiao\TASK\时间测试程序-20201223\obj\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\时间测试程序-20210102\bin\Debug\SerialPort.exe.config
+C:\Users\lenovo\Desktop\时间测试程序-20210102\bin\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\时间测试程序-20210102\bin\Debug\SerialPort.pdb
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SCI.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SerialPort.FrmSCI.resources
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SerialPort.Properties.Resources.resources
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SCI.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SerialPort.exe
+C:\Users\lenovo\Desktop\时间测试程序-20210102\obj\Debug\SerialPort.pdb
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\bin\Debug\SerialPort.exe.config
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\bin\Debug\SerialPort.exe
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\bin\Debug\SerialPort.pdb
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SCI.csproj.AssemblyReference.cache
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SerialPort.FrmSCI.resources
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SerialPort.Properties.Resources.resources
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SCI.csproj.GenerateResource.cache
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SerialPort.exe
+E:\16-23-BOOK\19-23 QinghuaPress\MCU-6(STM32L431)\06-User\AHL-MCU6-V1.9-20231129\04-Software\CH07\Timer-测试程序C#-20210130\obj\Debug\SerialPort.pdb
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\bin\Debug\SerialPort.exe.config
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\bin\Debug\SerialPort.exe
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\bin\Debug\SerialPort.pdb
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SCI.csproj.AssemblyReference.cache
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SerialPort.FrmSCI.resources
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SerialPort.Properties.Resources.resources
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SCI.csproj.GenerateResource.cache
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SCI.csproj.CoreCompileInputs.cache
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SerialPort.exe
+E:\16-23-BOOK\19-23 QinghuaPress\2023-TI-MSPM0L1306\AHL-MSPM0L1306-(20230312-20231210)\06-User\AHL-MSPM0L1306-V0.82-20231214\03-Software\CH07-Timer-PWM\时间测试程序C#-20231130\obj\Debug\SerialPort.pdb

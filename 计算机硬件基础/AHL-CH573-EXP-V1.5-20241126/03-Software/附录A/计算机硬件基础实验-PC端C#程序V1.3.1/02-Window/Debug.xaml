@@ -1,0 +1,114 @@
+﻿<Window x:Class="GEC_LAB._02_Window.Debug"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:pu="https://opensource.panuon.com/wpf-ui"
+        xmlns:local="clr-namespace:GEC_LAB._02_Window"
+        mc:Ignorable="d"
+        Title="Debug" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="0" x:Name="debugViewer">
+            <TextBlock x:Name="debugDisplay"/>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1" x:Name="userViewer">
+            <TextBlock x:Name="userDisplay"/>
+        </ScrollViewer>
+        <UniformGrid Grid.Column="0" Rows="1" VerticalAlignment="Bottom">
+            <Button     x:Name="debugButton"
+                        VerticalAlignment="Bottom"
+                        Height="20"
+                        Width="50"
+                        Content="暂停"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                        pu:IconHelper.Margin="0,0,10,0"
+                        pu:ButtonHelper.CornerRadius="4"
+                        pu:ButtonHelper.ShadowColor="#36AAF7"
+                        pu:ShadowHelper.BlurRadius="15"
+                        pu:ShadowHelper.ShadowDepth="5" 
+                        Margin="5"/>
+            <Button     x:Name="debugClearButton"
+                        VerticalAlignment="Bottom"
+                        Height="20"
+                        Width="50"
+                        Content="清空"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                        pu:IconHelper.Margin="0,0,10,0"
+                        pu:ButtonHelper.CornerRadius="4"
+                        pu:ButtonHelper.ShadowColor="#36AAF7"
+                        pu:ShadowHelper.BlurRadius="15"
+                        pu:ShadowHelper.ShadowDepth="5" 
+                        Margin="5"/>
+            <Button     x:Name="debugGotoButtomBtn"
+                VerticalAlignment="Center"
+                Height="20"
+                Width="80"
+                Content="自动滚动"
+                Background="#36AAF7"
+                Foreground="#FFFFFF"
+                pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                pu:IconHelper.Margin="0,0,10,0"
+                pu:ButtonHelper.CornerRadius="4"
+                pu:ButtonHelper.ShadowColor="#36AAF7"
+                pu:ShadowHelper.BlurRadius="15"
+                pu:ShadowHelper.ShadowDepth="5" />
+        </UniformGrid>
+
+        <UniformGrid Grid.Column="1" Rows="1" VerticalAlignment="Bottom">
+            <Button
+                        x:Name="userButton"
+                        Grid.Column="1"
+                        VerticalAlignment="Bottom"
+                        Height="20"
+                        Width="50"
+                        Content="暂停"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                        pu:IconHelper.Margin="0,0,10,0"
+                        pu:ButtonHelper.CornerRadius="4"
+                        pu:ButtonHelper.ShadowColor="#36AAF7"
+                        pu:ShadowHelper.BlurRadius="15"
+                        pu:ShadowHelper.ShadowDepth="5" 
+                        Margin="5"/>
+            <Button
+                x:Name="userClearButton"
+                Grid.Column="1"
+                VerticalAlignment="Bottom"
+                Height="20"
+                Width="50"
+                Content="清空"
+                Background="#36AAF7"
+                Foreground="#FFFFFF"
+                pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                pu:IconHelper.Margin="0,0,10,0"
+                pu:ButtonHelper.CornerRadius="4"
+                pu:ButtonHelper.ShadowColor="#36AAF7"
+                pu:ShadowHelper.BlurRadius="15"
+                pu:ShadowHelper.ShadowDepth="5" 
+                Margin="5"/>
+            <Button
+                x:Name="userGotoButtomBtn"
+                VerticalAlignment="Center"
+                Height="20"
+                Width="80"
+                Content="自动滚动"
+                Background="#36AAF7"
+                Foreground="#FFFFFF"
+                pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                pu:IconHelper.Margin="0,0,10,0"
+                pu:ButtonHelper.CornerRadius="4"
+                pu:ButtonHelper.ShadowColor="#36AAF7"
+                pu:ShadowHelper.BlurRadius="15"
+                pu:ShadowHelper.ShadowDepth="5"/>
+        </UniformGrid>
+    </Grid>
+</Window>

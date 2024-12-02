@@ -1,0 +1,216 @@
+{
+  "name": "数字信号测试",
+  "target": "------------------",
+  "version": 4,
+  "pins": {
+    "7": {
+      "no": 7,
+      "label": "PTA12",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA12"
+    },
+    "9": {
+      "no": 9,
+      "label": "PTA15",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA15"
+    },
+    "13": {
+      "no": 13,
+      "label": "PTA5",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA5"
+    },
+    "27": {
+      "no": 27,
+      "label": "PTB10",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB10"
+    },
+    "29": {
+      "no": 29,
+      "label": "PTB12",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB12"
+    },
+    "31": {
+      "no": 31,
+      "label": "PTB14",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB14"
+    },
+    "32": {
+      "no": 32,
+      "label": "PTB15",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB15"
+    },
+    "30": {
+      "no": 30,
+      "label": "PTB13",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB13"
+    },
+    "28": {
+      "no": 28,
+      "label": "PTB11",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTB11"
+    },
+    "14": {
+      "no": 14,
+      "label": "PTA4",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA4"
+    },
+    "10": {
+      "no": 10,
+      "label": "PTA14",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA14"
+    },
+    "8": {
+      "no": 8,
+      "label": "PTA13",
+      "enable": true,
+      "pinMode": 3,
+      "Name": "PTA13"
+    }
+  },
+  "components": [
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "17",
+        "express": "[PTA12(7)]"
+      },
+      "top": 35.0,
+      "left": 50.0,
+      "ZIndex": 164
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "20",
+        "express": "[PTA14(10)]"
+      },
+      "top": 304.0,
+      "left": 51.0,
+      "ZIndex": 162
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "数字监控",
+        "express": "[PTA15(9)]"
+      },
+      "top": 216.0,
+      "left": 50.0,
+      "ZIndex": 142
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "21",
+        "express": "[PTB13(30)]"
+      },
+      "top": 222.0,
+      "left": 305.0,
+      "ZIndex": 168
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "22",
+        "express": "[PTB12(29)]"
+      },
+      "top": 309.0,
+      "left": 306.0,
+      "ZIndex": 167
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "数字监控",
+        "express": "[PTA13(8)]"
+      },
+      "top": 128.0,
+      "left": 50.0,
+      "ZIndex": 139
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "数字监控",
+        "express": "[PTB11(28)]"
+      },
+      "top": 399.0,
+      "left": 307.0,
+      "ZIndex": 163
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "24",
+        "express": "[PTB10(27)]"
+      },
+      "top": 489.0,
+      "left": 305.0,
+      "ZIndex": 159
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "24",
+        "express": "[PTA4(14)]"
+      },
+      "top": 487.0,
+      "left": 54.0,
+      "ZIndex": 160
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "23",
+        "express": "[PTA5(13)]"
+      },
+      "top": 397.0,
+      "left": 51.0,
+      "ZIndex": 161
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "20",
+        "express": "[PTB14(31)]"
+      },
+      "top": 134.0,
+      "left": 306.0,
+      "ZIndex": 171
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.Led, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "name": "19",
+        "express": "[PTB15(32)]"
+      },
+      "top": 41.0,
+      "left": 304.0,
+      "ZIndex": 170
+    }
+  ],
+  "selectedMcu": 3,
+  "imgData": null,
+  "imgList": []
+}

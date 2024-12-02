@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.BasicComponent.NumberInput"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="120">
+    <Border Background="White" BorderBrush="#c0c0c0" BorderThickness="1">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Margin="5 0"
+                x:Name="numberText" 
+                FontFamily="微软雅黑"
+                FontSize="14"
+                Text="0"
+                InputMethod.IsInputMethodEnabled="False"
+                BorderThickness="0"
+                Width="60"/>
+            
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="upBtn"
+                      
+                        Background="Transparent" 
+                        Cursor="Hand"
+                        Grid.Column="0"
+                        Margin="5 0 5 0">
+                    <Border 
+                        Background="black"
+                        Height="2"
+                        Width="{Binding ElementName=upBtn,Path=ActualHeight}"
+                        MaxWidth="{Binding ElementName=upBtn,Path=ActualWidth}"/>
+                    <Border 
+                        Background="black"
+                        Height="{Binding ElementName=upBtn,Path=ActualHeight}"
+                        MaxHeight="{Binding ElementName=upBtn,Path=ActualWidth}"
+                        Width="2"/>
+                </Grid>
+
+                <Grid x:Name="downBtn"
+                        Background="Transparent" 
+                        Cursor="Hand"
+                        Grid.Column="1"
+                        Margin="5 0 5 0">
+                    <Border 
+                        VerticalAlignment="Center"
+                        Background="black"
+                        Height="2"
+                        Width="{Binding ElementName=downBtn,Path=ActualHeight}"
+                        MaxWidth="{Binding ElementName=upBtn,Path=ActualWidth}"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

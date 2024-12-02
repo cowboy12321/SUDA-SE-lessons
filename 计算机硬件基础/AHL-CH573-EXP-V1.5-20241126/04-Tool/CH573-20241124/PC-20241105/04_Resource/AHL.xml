@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>  <!--appSettings Start -->
+    <!--【1】【根据需要进行修改】窗体名、工程名-->
+    <formName>AHL-EL刷卡日志</formName>
+
+    <!--【2】【根据需要进行修改】指定HCICom连接与WebSocket连接-->
+    <!--【2.1】指定连接的方式和目标地址-->
+    <!--例<1>：监听本地的26123端口时,使用"local:"进行标志     "local:26123"-->
+    <!--例<2>：连接116.62.63.164的26123号端口时    116.62.63.164:8094"-->
+    <HCIComTarget>local:31012</HCIComTarget>
+    <!--【2.2】指定WebSocket服务器地址和端口号与二级目录地址-->
+    <!--【2.2.1】指定WebSocket服务器地址和端口号-->
+    <WebSocketTarget>ws://0.0.0.0:31013</WebSocketTarget>
+    <!--【2.2.2】指定WebSocket服务器二级目录地址-->
+    <WebSocketDirection>/wsServicesTest/</WebSocketDirection>
+    
+    <!--【3】【根据需要进行修改】指定侦听的IMSI号，分号“;”隔开(注意是西文分号），可以换行-->
+    <IMSI>
+      <!--苏州大学实验室一直运行的设备IMSI-->
+      460040436504866;460113003129577;159958334120987;
+      <!--用户的IMSI号-->
+    
+    </IMSI>    
+    
+    <!--【4】【根据需要进行修改】通信帧中的物理量，注意与MCU端的帧结构保持一致-->
+    <!--【画瓢处2】-->
+    <!-- A0命令 -->
+    <!-- A1命令 -->
+    <!-- A2命令 -->
+    <!-- A3命令 -->
+    <!-- B0命令 -->
+    <!-- B1命令 -->
+    <!-- B2命令 -->
+    <!-- B3命令 -->
+    <!-- U0命令，UE默认发送的命令，如改用其他命令传送，需更改MCU端程序 -->
+    <!-- U1命令 -->
+    <commands>       
+      <A0>cmd,equipName,equipID,equipType,vendor,productTime,userName,phone,serverIP,serverPort,sendFrequencySec,resetCount</A0>      
+      <A1>cmd,equipName,equipID,equipType,vendor,productTime,userName,phone</A1>    
+      <A2>cmd,serverIP,serverPort</A2>
+      <A3>cmd,sendFrequencySec,resetCount</A3>
+      <B0>cmd,equipName,equipID,equipType,vendor,productTime,userName,phone,serverIP,serverPort,sendFrequencySec,resetCount</B0>
+      <B1>cmd,equipName,equipID,equipType,vendor,productTime,userName,phone</B1>
+      <B2>cmd,serverIP,serverPort</B2>
+      <B3>cmd,sendFrequencySec,resetCount</B3>
+      <U0>cmd,sn,currentTime,name,company,lock_State,devicename,softversion</U0>
+      <U1>cmd,sn,currentTime,name,company,lock_State,devicename,softversion</U1>
+    </commands>
+    <frames>
+      <!--【4.1】【不动】MCU配置信息帧-->
+      <frame0>
+        <var>
+          <name>cmd</name>              <!--变量名称-->
+          <type>byte[2]</type>          <!--变量类型-->
+          <otherName>命令</otherName>   <!--变量显示名-->
+          <wr>read</wr>                <!--变量读写属性（read只读，write可读写）-->
+        </var>
+        <var>
+          <name>equipName</name>
+          <type>byte[30]</type>
+          <otherName>产品名称</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>equipID</name>
+          <type>byte[20]</type>
+          <otherName>产品序列号</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>equipType</name>
+          <type>byte[20]</type>
+          <otherName>产品类型</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>vendor</name>
+          <type>byte[30]</type>
+          <otherName>生产厂家</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>productTime</name>
+          <type>ulong</type>
+          <otherName>发送时间</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>userName</name>
+          <type>byte[20]</type>
+          <otherName>用户名</otherName>
+          <wr>write</wr>
+        </var>
+        <var>
+          <name>phone</name>
+          <type>byte[11]</type>
+          <otherName>手机号</otherName>
+          <wr>write</wr>
+        </var>
+        <var>
+          <name>serverIP</name>
+          <type>byte[15]</type>
+          <otherName>服务器IP</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>serverPort</name>
+          <type>byte[5]</type>
+          <otherName>服务器端口</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>sendFrequencySec</name>
+          <type>int</type>
+          <otherName>上传间隔</otherName>
+          <wr>write</wr>
+        </var>
+        <var>
+          <name>resetCount</name>
+          <type>int</type>
+          <otherName>复位次数</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>frameCmd</name>
+          <type>byte[2]</type>
+          <otherName>帧格式命令</otherName>
+          <wr>read</wr>
+        </var>
+      </frame0>
+
+      <!--【4.2】【不动】通信必备的变量，不可删除-->
+      <frame1>        
+        <var>
+          <name>cmd</name>              <!--变量名-->
+          <type>byte[2]</type>          <!--变量类型-->
+          <otherName>命令</otherName>   <!--变量显示名-->
+          <wr>read</wr>                <!--变量读写属性（read只读，write可读写）-->
+        </var>
+        <var>          
+          <name>sn</name>
+          <type>ushort</type>
+          <otherName>帧号</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>currentTime</name>
+          <type>ulong</type>
+          <otherName>发送时间</otherName>
+          <wr>read</wr>
+        </var>
+		  <var>
+			  <name>name</name>
+			  <type>byte[8]</type>
+			  <otherName>姓名</otherName>
+			  <wr>read</wr>
+		  </var>
+		  <var>
+			  <name>company</name>
+			  <type>byte[20]</type>
+			  <otherName>公司</otherName>
+			  <wr>read</wr>
+		  </var>
+		  <var>
+			  <name>lock_State</name>
+			  <type>byte</type>
+			  <otherName>锁状态</otherName>
+			  <wr>read</wr>
+		  </var>
+		  <var>
+			  <name>devicename</name>
+			  <type>byte[16]</type>
+			  <otherName>设备号</otherName>
+			  <wr>read</wr>
+		  </var>
+		  <var>
+			  <name>softversion</name>
+			  <type>byte[8]</type>
+			  <otherName>软件版本</otherName>
+			  <wr>read</wr>
+		  </var>
+		  
+		  <!--添加开始运行时间和运行时长【20200910】CRX-->
+		  
+		  <!--<var>
+          <name>UESendCt</name>
+          <type>int</type>
+          <otherName>终端发送成功计数</otherName>
+          <wr>read</wr>
+        </var>
+        <var>
+          <name>UEInitCt</name>
+          <type>int</type>
+          <otherName>终端初始化计数</otherName>
+          <wr>read</wr>
+        </var>-->
+        <!--name属性的内容应满足变量命名的要求，且不能与其他var中的name属性内容相同（大小写认为是一样的）-->
+        <!--【4.2】【画瓢处1】【根据需要进行修改】此处可按需要增删变量，注意与MCU端帧结构保持一致-->
+      </frame1>  
+    
+    </frames>
+
+  </appSettings>   <!--appSettings End -->
+</configuration>

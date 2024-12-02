@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.Component.OscilloscopeAttachment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.Component"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:bc="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             d:DataContext="{d:DesignInstance Type={x:Type local:OscilloscopeViewModel}}"
+             mc:Ignorable="d" 
+             d:DesignHeight="360" d:DesignWidth="240" x:Name="attachment">
+    <Border Background="White" CornerRadius="6"  Padding="2" BorderBrush="#e0e0e0" BorderThickness="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="85"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Border Padding="2" BorderBrush="#a0a0a0" BorderThickness=" 0 0 0 2" >
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="示波器" Grid.ColumnSpan="4" HorizontalAlignment="Center" Background="Transparent"/>
+
+                    <Label  Grid.Row="1" Content="名字"  Background="Transparent" HorizontalContentAlignment="Center" FontSize="12" />
+                    <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1"  Height="18"  Margin="5,0"  Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"
+                            pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                            pu:TextBoxHelper.CornerRadius="4"
+                            pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                            pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                            pu:ShadowHelper.Opacity="0.5"
+                            pu:ShadowHelper.BlurRadius="15"
+                            pu:ShadowHelper.ShadowDepth="5">
+                    </TextBox>
+
+
+                    <Label  Grid.Row="2" Grid.Column="0" Content="Y轴"  Background="Transparent"   HorizontalContentAlignment="Center" FontSize="12"/>
+                    <TextBox x:Name="txtY" Grid.Row="2" Grid.Column="1" Height="17" Margin="5,0"  Text="{Binding YName,UpdateSourceTrigger=PropertyChanged}"
+                         pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                         pu:TextBoxHelper.CornerRadius="4"
+                         pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                         pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                         pu:ShadowHelper.Opacity="0.5"
+                         pu:ShadowHelper.BlurRadius="15"
+                         pu:ShadowHelper.ShadowDepth="5">
+                    </TextBox>
+                    <Label  Grid.Row="1" Grid.Column="2" Content="滚动模式"  Background="Transparent"   HorizontalContentAlignment="Center" FontSize="12"/>
+                    <pu:Switch x:Name="autoScale" Grid.Row="1" Grid.Column="3" Height="20" Margin="0 0 8 0" Width="35" 
+                               pu:BoxWidth="35" pu:BoxHeight="17"
+                              CheckedBackground="#36AAF7" IsChecked="{Binding Rolling}" HorizontalAlignment="Center"/>
+                    <Label  Grid.Row="2" Grid.Column="2" Content="横轴大小"  Background="Transparent"   HorizontalContentAlignment="Center" FontSize="12"/>
+                    <pu:NumberInput  Grid.Row="2" Grid.Column="3" Height="17" Margin="5,0"  
+                                     Interval="0.01" StepFactor="50"
+                                     IsEnabled="{Binding Rolling}" Minimum="0.01" Value="{Binding RollingTime}"
+                                     
+                         pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                         pu:ShadowHelper.Opacity="0.5"
+                         pu:ShadowHelper.BlurRadius="15"
+                         pu:ShadowHelper.ShadowDepth="5">
+                    </pu:NumberInput>
+
+                </Grid>
+
+
+            </Border>
+            <ListView x:Name="seriesListBox" Grid.Row="1" 
+                ItemContainerStyle="{StaticResource seriesListBoxItem}"
+                ItemsSource="{Binding SeriesList}" 
+                BorderThickness="0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <bc:OscilChannelController UUID="{Binding UUID}" ChannelName="{Binding Name}" 
+                                              Formula="{Binding Formula}" Offset="{Binding Offset}"
+                                             Width="220" Margin="3" LineColor="{Binding LineColor}">
+                            <i:Interaction.Behaviors>
+                                <local:OscilloscopeSeriesBehavior attachment="{Binding ElementName=attachment}" />
+                            </i:Interaction.Behaviors>
+                        </bc:OscilChannelController>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button 
+                x:Name="btnSeriesAddNew"
+               Command="{Binding newSeriesCommand}"
+                Grid.Row="2" Cursor="Hand" 
+                    Padding="5"
+                    Margin="0 0 0 5"
+                    pu:ButtonHelper.CornerRadius="5"
+                        Content="添加新曲线" 
+                FontWeight="Black"
+                       Background="#63bdff" 
+                       Foreground="White" 
+                        FontFamily="微软雅黑"
+                       FontSize="15"
+                       VerticalAlignment="Bottom"
+                       HorizontalAlignment="Center">
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="0"  BlurRadius="5" Opacity="0.6"/>
+                </Button.Effect>
+            </Button>
+
+        </Grid>
+    </Border>
+</UserControl>

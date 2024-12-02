@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.BasicComponent.SeriesController"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             xmlns:model="clr-namespace:GEC_LAB._04_Class.Models"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             mc:Ignorable="d" 
+             d:DesignHeight="121" d:DesignWidth="230" >
+    <Grid x:Name="ffffather">
+        <Border Background="#f6feff" CornerRadius="6"  Padding="2" BorderBrush="#e0e0e0" BorderThickness="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+
+           <Label Grid.Row="0" Content="曲线名"  Background="Transparent" HorizontalContentAlignment="Right"/>
+           <TextBox x:Name="txtName"  Grid.Column="1" Height="17"  Margin="5,0" 
+               pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}" 
+               pu:TextBoxHelper.CornerRadius="4" 
+               pu:TextBoxHelper.FocusedForeground="#36AAF7"
+               pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+               pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+               pu:ShadowHelper.Opacity="0.5"
+               pu:ShadowHelper.BlurRadius="15"
+               pu:ShadowHelper.ShadowDepth="5"/> 
+
+
+                <Label  x:Name="txtXLbl"  Grid.Row="1" Content="X轴计算式"  Background="Transparent"   HorizontalContentAlignment="Right" />
+                <TextBox x:Name="txtXFormula" Grid.Row="1" Grid.Column="1" Height="17" Margin="5,0" FontSize="10"  
+             pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+             pu:TextBoxHelper.CornerRadius="4"
+             pu:TextBoxHelper.FocusedForeground="#36AAF7"
+             pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+             pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+             pu:ShadowHelper.Opacity="0.5"
+             pu:ShadowHelper.BlurRadius="15"
+             pu:ShadowHelper.ShadowDepth="5"/>
+
+                <Label  Grid.Row="2" Content="Y轴计算式"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+                <TextBox x:Name="txtYFormula" Grid.Row="2" Grid.Column="1" Height="17" Margin="5,0" FontSize="10" 
+             pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+             pu:TextBoxHelper.CornerRadius="4"
+             pu:TextBoxHelper.FocusedForeground="#36AAF7"
+             pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+             pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+             pu:ShadowHelper.Opacity="0.5"
+             pu:ShadowHelper.BlurRadius="15"
+             pu:ShadowHelper.ShadowDepth="5">
+                </TextBox>
+                <Grid Grid.Row="3" Height="15" Grid.ColumnSpan="2">
+                    <Line x:Name="displayLine"  Stroke="Black" StrokeThickness="2" X1="0" X2="190" Y1="7.5" Y2="7.5" HorizontalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="4" Grid.ColumnSpan="2" Height="22" Cursor="">
+                    <Border BorderBrush="#1890ff" BorderThickness="1" CornerRadius="4" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal" >
+                            <Button x:Name="btnColor1" Height="13" Width="20" Background="Black" Margin="2" pu:ButtonHelper.CornerRadius="3" Cursor="Hand"/>
+                            <Button x:Name="btnColor2" Height="13" Width="20" Background="Red" Margin="2" pu:ButtonHelper.CornerRadius="3" Cursor="Hand"/>
+                            <Button x:Name="btnColor3" Height="13" Width="20" Background="Blue" Margin="2" pu:ButtonHelper.CornerRadius="3" Cursor="Hand"/>
+                            <Button x:Name="btnColor4" Height="13" Width="20" Background="Pink" Margin="2" pu:ButtonHelper.CornerRadius="3" Cursor="Hand"/>
+
+                            <Button x:Name="btnColorPixel" Height="13" Width="20" Margin="2" pu:ButtonHelper.CornerRadius="3" Padding="0" ClipToBounds="True" Cursor="Hand">
+                                <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="30" CornerRadius="3" ClipToBounds="True" >
+                                    <Image  Source="pack://application:,,,/05-Resources/color.png" Height="30" Width="40" Stretch="UniformToFill" ClipToBounds="True">
+                                        <Image.RenderTransform>
+                                            <TranslateTransform X="0" Y="-4.5" />
+                                        </Image.RenderTransform>
+                                    </Image>
+                                </Border>
+                            </Button>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderBrush="#1890ff" BorderThickness="1" CornerRadius="4" HorizontalAlignment="Right">
+                        <StackPanel Orientation="Horizontal" >
+                            <Button x:Name="btnCopy" Background="Transparent" Width="22" Padding="0" ToolTip="从该曲线复制" Cursor="Hand" >
+                                <Image Source="pack://application:,,,/05-Resources/UIcopy.png" Height="20"/>
+                            </Button>
+                            <Button x:Name="btnClear" Background="Transparent" Width="22" Padding="0" ToolTip="清空该曲线的数据" Cursor="Hand">
+                                <Image Source="pack://application:,,,/05-Resources/UIclear.png" Height="20"/>
+                            </Button>
+                            <Button x:Name="btnDelete" Background="Transparent" Width="22" Padding="0" ToolTip="删除该曲线" Cursor="Hand" >
+                                <Image Source="pack://application:,,,/05-Resources/UIdelete.png" Height="17"/>
+                            </Button>
+                        </StackPanel>
+                </Border>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

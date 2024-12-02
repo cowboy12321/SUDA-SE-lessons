@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <file name="kinetis-design-studio">
+    <path>D:\KDS3.2\eclipse\kinetis-design-studio.exe</path>
+    <display>kinetis-design-studio</display>
+    <arguments>no args</arguments>
+  </file>
+  <file name="JFlash-KL36">
+    <path>E:\AHL-A00-Kit01(-MCU-KL36)\AHL_MCU_KL36_Reservation\JLink-KL36\JFlash-KL36.exe</path>
+    <display>JFlash-KL36</display>
+    <arguments>no args</arguments>
+  </file>
+</menu>

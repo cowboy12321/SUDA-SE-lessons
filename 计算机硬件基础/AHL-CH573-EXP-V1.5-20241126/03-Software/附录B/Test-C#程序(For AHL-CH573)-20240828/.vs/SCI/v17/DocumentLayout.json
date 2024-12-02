@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|c:\\users\\honge\\onedrive\\enbed\\ch573\\ch573\u6D82\u5B9A\u51E1\\ch01\\c#\u7A0B\u5E8F(for ahl-mspm0l1306-test)-20231031\\02-form\\formsci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|solutionrelative:02-form\\formsci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-form\\formsci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|solutionrelative:02-form\\formsci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|c:\\users\\honge\\onedrive\\enbed\\ch573\\ch573\u6D82\u5B9A\u51E1\\ch01\\c#\u7A0B\u5E8F(for ahl-mspm0l1306-test)-20231031\\02-form\\formsci.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|solutionrelative:02-form\\formsci.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|c:\\users\\honge\\onedrive\\enbed\\ch573\\ch573\u6D82\u5B9A\u51E1\\ch01\\c#\u7A0B\u5E8F(for ahl-mspm0l1306-test)-20231031\\02-form\\formsci.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{EEBAE3C0-DD84-42F8-9758-8A22AA937228}|SCI.csproj|solutionrelative:02-form\\formsci.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormSCI.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.Designer.cs",
+              "RelativeDocumentMoniker": "02-Form\\FormSCI.Designer.cs",
+              "ToolTip": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.Designer.cs",
+              "RelativeToolTip": "02-Form\\FormSCI.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:26:05.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormSCI.resx",
+              "DocumentMoniker": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.resx",
+              "RelativeDocumentMoniker": "02-Form\\FormSCI.resx",
+              "ToolTip": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.resx",
+              "RelativeToolTip": "02-Form\\FormSCI.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-28T06:26:06.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormSCI.cs",
+              "DocumentMoniker": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.cs",
+              "RelativeDocumentMoniker": "02-Form\\FormSCI.cs",
+              "ToolTip": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.cs",
+              "RelativeToolTip": "02-Form\\FormSCI.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKIDAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:25:53.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormSCI.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.cs",
+              "RelativeDocumentMoniker": "02-Form\\FormSCI.cs",
+              "ToolTip": "C:\\Users\\honge\\OneDrive\\enbed\\CH573\\CH573\u6D82\u5B9A\u51E1\\CH01\\C#\u7A0B\u5E8F(For AHL-MSPM0L1306-Test)-20231031\\02-Form\\FormSCI.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "02-Form\\FormSCI.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:25:53.426Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

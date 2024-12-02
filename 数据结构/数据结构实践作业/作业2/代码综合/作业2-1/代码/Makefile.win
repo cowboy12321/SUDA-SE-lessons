@@ -1,0 +1,34 @@
+# Project: 项目2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o list1.o list2.o
+LINKOBJ  = main.o list1.o list2.o
+LIBS     = -L"D:/devc++/Dev-Cpp/MinGW64/lib" -L"D:/devc++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/devc++/Dev-Cpp/MinGW64/include" -I"D:/devc++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/devc++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/devc++/Dev-Cpp/MinGW64/include" -I"D:/devc++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/devc++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/devc++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = 项目2.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+list1.o: list1.cpp
+	$(CPP) -c list1.cpp -o list1.o $(CXXFLAGS)
+
+list2.o: list2.cpp
+	$(CPP) -c list2.cpp -o list2.o $(CXXFLAGS)

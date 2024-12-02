@@ -1,0 +1,121 @@
+{
+  "name": "未命名实验",
+  "target": "",
+  "version": 4,
+  "pins": {
+    "8": {
+      "no": 8,
+      "label": "PTA13",
+      "enable": true,
+      "pinMode": 2,
+      "Name": "PTA13"
+    },
+    "7": {
+      "no": 7,
+      "label": "PTA12",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "A"
+    },
+    "9": {
+      "no": 9,
+      "label": "PTA15",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "B"
+    },
+    "13": {
+      "no": 13,
+      "label": "PTA5",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "C"
+    },
+    "27": {
+      "no": 27,
+      "label": "PTB10",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "PTB10"
+    },
+    "29": {
+      "no": 29,
+      "label": "PTB12",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "PTB12"
+    },
+    "31": {
+      "no": 31,
+      "label": "PTB14",
+      "enable": true,
+      "pinMode": 4,
+      "Name": "PTB14"
+    }
+  },
+  "components": [
+    {
+      "type": "GEC_LAB._03_UserControl.Component.SeqGenerator, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "channels": [
+          {
+            "channelName": "通道1",
+            "channelSeq": "01",
+            "pin": {
+              "no": 7,
+              "label": "PTA12",
+              "enable": true,
+              "pinMode": 4,
+              "Name": "A"
+            }
+          },
+          {
+            "channelName": "通道",
+            "channelSeq": "10",
+            "pin": {
+              "no": 9,
+              "label": "PTA15",
+              "enable": true,
+              "pinMode": 4,
+              "Name": "B"
+            }
+          },
+          {
+            "channelName": "通道",
+            "channelSeq": "01",
+            "pin": {
+              "no": 13,
+              "label": "PTA5",
+              "enable": true,
+              "pinMode": 4,
+              "Name": "C"
+            }
+          }
+        ],
+        "interval": 5
+      },
+      "top": 51.0,
+      "left": 37.0,
+      "ZIndex": 5
+    },
+    {
+      "type": "GEC_LAB._03_UserControl.Component.LogicAnalyzer, GEC_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "data": {
+        "channels": [
+          {
+            "channelName": "channel",
+            "ChannelColor": "#FFFFC0CB",
+            "formula": "[A(7)]",
+            "points": []
+          }
+        ]
+      },
+      "top": 466.0,
+      "left": 42.0,
+      "ZIndex": 4
+    }
+  ],
+  "selectedMcu": 3,
+  "imgData": null,
+  "imgList": []
+}

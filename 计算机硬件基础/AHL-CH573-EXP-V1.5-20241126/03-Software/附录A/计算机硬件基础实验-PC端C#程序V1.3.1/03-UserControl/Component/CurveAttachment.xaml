@@ -1,0 +1,113 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.Component.CurveAttachment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:base="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.Component"
+             xmlns:vms="clr-namespace:GEC_LAB._03_UserControl.Component.ViewModels"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             mc:Ignorable="d" 
+             d:DesignHeight="215" d:DesignWidth="240">
+    <UserControl.DataContext>
+        <vms:CurveViewModel/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <vms:BoolReverser x:Key="boolReverser"/>
+    </UserControl.Resources>
+    <Border Background="White" CornerRadius="6"  Padding="2" BorderBrush="#e0e0e0" BorderThickness="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="曲线图控件" Grid.ColumnSpan="2" HorizontalAlignment="Center" Background="Transparent"/>
+
+
+            <Label  Grid.Row="1" Content="曲线名"  Background="Transparent" HorizontalContentAlignment="Right"/>
+            <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1" Height="17"  Margin="5,0"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+
+            <Label  Grid.Row="2" Content="自动坐标"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <pu:Switch x:Name="autoScale" Grid.Row="2" Grid.Column="1" Height="20" 
+                       Margin="5,0" Width="50" pu:BoxHeight="17" IsChecked="{Binding AutoScale}"/>
+
+            <StackPanel Grid.Row="3" Orientation="Horizontal" Grid.ColumnSpan="2" Height="25" >
+                <Label Grid.Row="3" Content="X最大值" Background="Transparent" Margin="10 0 0 0"  />
+                <pu:NumberInput x:Name="xNumber" Width="50" Value="{Binding XMax}" Interval="0.1"
+                       IsEnabled="{Binding AutoScale, Converter={StaticResource boolReverser}}"/>
+                <Label Grid.Row="3" Content="Y最大值" Background="Transparent" Margin="10 0 0 0" />
+                <pu:NumberInput x:Name="yNumber" Width="50" Value="{Binding YMax}" Interval="0.1"
+                                Minimum="0"
+                        IsEnabled="{Binding AutoScale, Converter={StaticResource boolReverser}}"/>
+            </StackPanel>
+
+            <Label   Grid.Row="4" Content="X轴坐标"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <TextBox Grid.Row="4" x:Name="txtX"  Grid.Column="1" Height="17"  Margin="5,0"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+            <Label   Grid.Row="5" Content="X轴计算式"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <TextBox Grid.Row="5" x:Name="txtXFormula"  Grid.Column="1" Height="17" Margin="5,0" FontSize="10"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+            
+            <Label   Grid.Row="6" Content="Y轴坐标"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <TextBox Grid.Row="6" x:Name="txtY"  Grid.Column="1" Height="17" Margin="5,0" 
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+            <Label   Grid.Row="7" Content="Y轴计算式"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <TextBox Grid.Row="7" x:Name="txtYFormula"  Grid.Column="1" Height="17" Margin="5,0" FontSize="10"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+            <Label          Grid.Row="8" Content="曲线颜色"  Background="Transparent"   HorizontalContentAlignment="Right"/>
+            <pu:ColorPicker Grid.Row="8" x:Name="colorPicker"  Grid.Column="1" Height="17" Margin="5,0"   />
+        </Grid>
+    </Border>
+</UserControl>

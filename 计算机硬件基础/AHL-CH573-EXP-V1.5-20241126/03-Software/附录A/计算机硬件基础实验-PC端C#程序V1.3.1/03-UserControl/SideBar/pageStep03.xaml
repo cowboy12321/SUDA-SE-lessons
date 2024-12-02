@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.PageStep03"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="200">
+    <Grid Background="#f4f4f4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Content="设置图表" Style="{StaticResource pageTitle}" Background="#e0e0e0"/>
+        <Label Grid.Row="1" Content="拖动元件到右侧以创建监控" Background="Transparent" HorizontalAlignment="Center"/>
+        <WrapPanel x:Name="ComponentContainer" Grid.Row="2" HorizontalAlignment="Center"/>
+
+    </Grid>
+</UserControl>

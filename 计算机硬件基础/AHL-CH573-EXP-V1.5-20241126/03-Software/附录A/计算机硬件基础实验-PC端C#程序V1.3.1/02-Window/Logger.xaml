@@ -1,0 +1,46 @@
+﻿<Window x:Class="GEC_LAB._02_Window.Logger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GEC_LAB._02_Window"
+        xmlns:lc="clr-namespace:GEC_LAB._03_UserControl"
+        mc:Ignorable="d"
+        xmlns:pu="https://opensource.panuon.com/wpf-ui"
+        Title="Logger" Height="450" Width="800" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <WrapPanel VerticalAlignment="Center" >
+            <Button Content="↑" x:Name="toTopBtn" ToolTip="回到顶端" Style="{StaticResource loggerTopItem}"/>
+            <Separator/>
+            <Button Content="↓" x:Name="toEndBtn" ToolTip="滚动到最后"  Style="{StaticResource loggerTopItem}"/>
+
+            <Button Content="⏎" x:Name="wrapBtn" ToolTip="自动换行" FontSize="20" Style="{StaticResource loggerTopItem}"/>
+            <Button Content="🗑️" x:Name="clearBtn" ToolTip="清空" Style="{StaticResource loggerTopItem}"/>
+            <Button Content="📥" x:Name="saveBtn"  ToolTip="导出" Style="{StaticResource loggerTopItem}"/>
+            
+            
+            <Label Content="日志级别：" Background="Transparent" VerticalAlignment="Center"/>
+            <ComboBox VerticalAlignment="Center" FontSize="14" x:Name="comboBox" Margin=" 0 0 10 0" Width="90"/>
+            <Label Content="显示条数：" Background="Transparent" VerticalAlignment="Center"/>
+            <pu:NumberInput x:Name="numberInput" VerticalAlignment="Center" FontSize="14" Width="90" Interval="50" Value="50" Minimum="1"
+                UpDownButtonsOrientation="Horizontal" />
+
+        </WrapPanel>
+        <ScrollViewer x:Name="displayScroll" Grid.Row="1" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto" Style="{StaticResource Lab_ScrollBarStyle}">
+            <RichTextBox 
+                x:Name="display"
+                VerticalAlignment="Top"
+                Grid.Row="1" 
+                FontFamily="jetBrains Mono, consolas"
+                IsReadOnly="True" 
+                Background="Beige"/>
+
+
+        </ScrollViewer>
+        
+    </Grid>
+</Window>

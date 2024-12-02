@@ -1,0 +1,23 @@
+﻿<UserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:local="clr-namespace:GEC_LAB._03_UserControl.Component"
+            xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+            x:Class="GEC_LAB._03_UserControl.Component.VImeter"
+            mc:Ignorable="d" 
+            d:Height="200" d:Width="200" >
+
+    <Grid Background="Transparent">
+        <Canvas x:Name="cv" Height="200" Width="200"/>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="lblValue" Grid.Row="0" Text="205" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="微软雅黑" FontSize="50" FontWeight="ExtraBold"/>
+            <TextBlock x:Name="lblExpress" Grid.Row="1" Text="测试" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+        </Grid>
+    </Grid>
+</UserControl>

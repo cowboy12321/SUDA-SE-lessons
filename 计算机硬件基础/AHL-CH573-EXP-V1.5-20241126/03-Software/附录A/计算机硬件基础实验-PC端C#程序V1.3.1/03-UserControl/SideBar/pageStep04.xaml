@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.PageStep04"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="200">
+    <Grid Background="#f4f4f4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Content="连接设备" Style="{StaticResource pageTitle}" Background="#e0e0e0"/>
+        <Border Grid.Row="1"  BorderThickness="0 0 0 2" BorderBrush="#e0e0e0"  />
+        <Grid Grid.Row="1"  Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btnUnLink" Grid.Column="0" Click="btn_uartLink_Click" 
+                        pu:ButtonHelper.IsPending="False"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        Margin="2"
+                        pu:ButtonHelper.CornerRadius="4">
+                    <TextBlock x:Name="btnUnLinkText"  Background="Transparent" TextWrapping="Wrap" Text="点击连接" FontSize="14" />
+                </Button>
+                <Button Margin="2"
+                        x:Name="btnLinking"
+                        Visibility="Hidden"
+                        FontSize="10"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        pu:ButtonHelper.IsPending="True"
+                        pu:ButtonHelper.CornerRadius="4"
+                        pu:ButtonHelper.ClickEffect="Shake">
+                    <pu:ButtonHelper.PendingSpinStyle>
+                        <Style TargetType="pu:Spin"
+                            BasedOn="{StaticResource {x:Static pu:ButtonHelper.PendingSpinStyleKey}}">
+                            <Setter Property="Margin" Value="0,0,10,0" />
+                            <Setter Property="SpinStyle" Value="Ring2" />
+                        </Style>
+                    </pu:ButtonHelper.PendingSpinStyle>
+                    <TextBlock Background="Transparent" TextWrapping="Wrap" Text="连接中" FontSize="14" />
+                </Button>
+                <Button Margin="2"
+                        Grid.Row="1"
+                        FontSize="10"
+                        Background="#36AAF7"
+                        Foreground="#FFFFFF"
+                        pu:ButtonHelper.CornerRadius="4"
+                        Command="{Binding DeLinkCommand}">
+                    <TextBlock Background="Transparent" TextWrapping="Wrap" Text="断开连接" FontSize="14" />
+                </Button>
+                <Label  Grid.Column="1" Background="Transparent" Grid.RowSpan="2">
+                    <TextBlock Background="Transparent" TextWrapping="Wrap" Text="{Binding LinkStatus}"/>
+                </Label>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Background="Transparent" Content="输出控制" HorizontalContentAlignment="Center"/>
+            <StackPanel x:Name="controllerPanel" Grid.Row="1"/>
+
+
+        </Grid>
+    </Grid>
+</UserControl>

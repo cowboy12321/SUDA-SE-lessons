@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.Component.LogicAnalyzer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.Component"
+             xmlns:vms="clr-namespace:GEC_LAB._03_UserControl.Component.ViewModels"
+             xmlns:base="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border CornerRadius="10" BorderThickness="2" BorderBrush="#d0d0d0" Background="White">
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="titleLbl" Content="逻辑分析仪" FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Center"  Background="Transparent"/>
+            <base:MyScrollViewer  Grid.Row="1" Background="Transparent" >
+                <WrapPanel  x:Name="channelPanel" Orientation="Vertical"/>
+            </base:MyScrollViewer>
+
+            <WrapPanel Grid.Row="2"  VerticalAlignment="Center">
+                <Button x:Name="btnStart" Background="Transparent" Width="40" Padding="0" ToolTip="开始记录" Cursor="Hand" >
+                    <Image Source="pack://application:,,,/05-Resources/UIStart.png" Height="30"/>
+                </Button>
+                <Button Visibility="Collapsed"
+                    x:Name="btnStop" Background="Transparent" Width="40" Padding="0" ToolTip="停止记录" Cursor="Hand" >
+                    <Image Source="pack://application:,,,/05-Resources/UIStop.png" Height="30"/>
+                </Button>
+                <Button x:Name="btnAdd" Background="Transparent" Width="40" Padding="0" ToolTip="添加通道" Cursor="Hand" >
+                    <Image Source="pack://application:,,,/05-Resources/UIAdd.png" Height="30"/>
+                </Button>
+                <Button x:Name="btnReset" Background="Transparent" Width="40" Padding="0" ToolTip="重置" Cursor="Hand" >
+                    <Image Source="pack://application:,,,/05-Resources/UIReset.png" Height="30"/>
+                </Button>
+
+            </WrapPanel>
+        </Grid>
+    </Border>
+</UserControl>

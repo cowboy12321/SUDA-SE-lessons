@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.PageStep01"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl"
+             mc:Ignorable="d" 
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             d:DesignHeight="700" d:DesignWidth="200">
+    <Grid Background="#f4f4f4" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Label Content="设置基本参数" Style="{StaticResource pageTitle}" Background="#e0e0e0"/>
+        <Border Grid.Row="1" BorderThickness="1" BorderBrush="#f0f0f0" Margin="3" CornerRadius="3"   >
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" Color="#f0f0f0"/>
+            </Border.Effect>
+        </Border>
+        <Border Grid.Row="1" BorderThickness="0 0 0 1" BorderBrush="#808080" Margin="5"  Padding=" 5 0 5 10"    
+                pu:ShadowHelper.RenderingBias="Performance"
+                pu:ShadowHelper.BlurRadius="20">
+            <StackPanel>
+                <Label Background="Transparent" Grid.Row="1"  Content="实验名字" FontSize="15" FontStyle="Italic" Foreground="#404040"/>
+                <TextBox x:Name="txtName" Background="Transparent"  Grid.Column="1" BorderBrush="#0980e0" 
+                         Height="18"
+                        pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                     pu:TextBoxHelper.CornerRadius="4"
+                     pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                     pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                     pu:ShadowHelper.Opacity="0.5"
+                     pu:ShadowHelper.BlurRadius="15"
+                     pu:ShadowHelper.ShadowDepth="5">
+                    <TextBox.Text>
+                        <Binding Path="Name" UpdateSourceTrigger="PropertyChanged" />
+                    </TextBox.Text>
+                </TextBox>
+
+                <Label Background="Transparent"   Content="实验目标"  FontSize="15"  FontStyle="Italic" Foreground="#404040" Margin="0 10 0 0"/>
+                <TextBox x:Name="txtTarjet" Background="Transparent" BorderBrush="#0980e0"
+                         Height="18"
+                        pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                     pu:TextBoxHelper.CornerRadius="4"
+                     pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                     pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                     pu:ShadowHelper.Opacity="0.5"
+                     pu:ShadowHelper.BlurRadius="15"
+                     pu:ShadowHelper.ShadowDepth="5">
+                    <TextBox.Text>
+                        <Binding Path="Target" UpdateSourceTrigger="PropertyChanged" />
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+        </Border>
+        <Grid Grid.Row="2" Height="130" VerticalAlignment="Top">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseUp">
+                    <i:InvokeCommandAction Command="{Binding ImgUploadCommand }"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <Image Grid.Row="3" 
+                   Grid.ColumnSpan="2" Cursor="Hand" 
+                    Source="{Binding UploadImg}" 
+                   Height="100">
+
+            </Image>
+            <TextBlock Grid.Row="3" Cursor="Hand" 
+                       Grid.ColumnSpan="2" Text="点击上传实验图" 
+                       Background="Transparent"  
+                       Foreground="White"
+                       FontWeight="Bold"
+                       FontFamily="方正中黑简体"
+                       FontSize="15"
+                       VerticalAlignment="Bottom" 
+                       HorizontalAlignment="Center">
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="0"  BlurRadius="5" Opacity="0.6"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </Grid>
+
+    </Grid>
+</UserControl>

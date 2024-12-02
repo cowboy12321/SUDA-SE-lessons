@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "gec.h": "c",
+        "mcu.h": "c",
+        "includes.h": "c",
+        "user.h": "c",
+        "flash.h": "c",
+        "gpio.h": "c",
+        "rf.h": "c",
+        "ch57xble_lib.h": "c"
+    }
+}

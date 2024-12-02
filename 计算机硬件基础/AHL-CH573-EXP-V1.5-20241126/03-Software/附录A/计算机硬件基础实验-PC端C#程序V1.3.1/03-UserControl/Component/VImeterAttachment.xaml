@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.Component.VImeterAttachment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.Component"
+             xmlns:b="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             mc:Ignorable="d" 
+             d:DesignHeight="110" d:DesignWidth="210">
+    <Border Background="White" CornerRadius="6"  Padding="2" BorderBrush="#e0e0e0" BorderThickness="2" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="实时数据控件" Grid.ColumnSpan="2" HorizontalAlignment="Center" Background="Transparent"/>
+            
+            <Label  Grid.Row="1" Content="名字"  Background="Transparent" HorizontalContentAlignment="Right"/>
+            <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1" Height="17"  Margin="5,0"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+
+            <Label  Grid.Row="2" Content="计算式"  Background="Transparent"  HorizontalContentAlignment="Right"/>
+            <TextBox x:Name="txtExpress" Grid.Row="2" Grid.Column="1" Height="17"  Margin="5,0" FontSize="10"
+                 pu:IconHelper.FontFamily="{StaticResource PanuonIconFont}"
+                 pu:TextBoxHelper.CornerRadius="4"
+                 pu:TextBoxHelper.FocusedForeground="#36AAF7"
+                 pu:TextBoxHelper.FocusedBorderBrush="#36AAF7"
+                 pu:TextBoxHelper.FocusedShadowColor="#36AAF7"
+                 pu:ShadowHelper.Opacity="0.5"
+                 pu:ShadowHelper.BlurRadius="15"
+                 pu:ShadowHelper.ShadowDepth="5">
+            </TextBox>
+
+            <Label  Grid.Row="3" Content="最大值"  Background="Transparent"  HorizontalContentAlignment="Right"/>
+            <pu:NumberInput x:Name="numMax" Grid.Row="3" Grid.Column="1" Height="17" FontSize="10" Margin="5,0"
+                Minimum="0" Maximum="100" Interval="0.125"  />
+
+        </Grid>
+    </Border>
+</UserControl>

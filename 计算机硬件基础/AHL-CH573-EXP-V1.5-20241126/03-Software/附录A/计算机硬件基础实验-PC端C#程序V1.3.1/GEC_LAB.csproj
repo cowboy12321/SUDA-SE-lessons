@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>05-Resources\gec_lab.ico</ApplicationIcon>
+  </PropertyGroup>
+
+<ItemGroup>
+  <Content Include="05-Resources\MCU\.*">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </Content>
+</ItemGroup>
+
+
+  <ItemGroup>
+    <None Remove="05-Resources\color.png" />
+    <None Remove="05-Resources\digital0.png" />
+    <None Remove="05-Resources\digital1.png" />
+    <None Remove="05-Resources\UIAdd.png" />
+    <None Remove="05-Resources\UIclear.png" />
+    <None Remove="05-Resources\UIcopy.png" />
+    <None Remove="05-Resources\UIdelete.png" />
+    <None Remove="05-Resources\UIdone.png" />
+    <None Remove="05-Resources\UIedit.png" />
+    <None Remove="05-Resources\UIEdit2.png" />
+    <None Remove="05-Resources\UIReset.png" />
+    <None Remove="05-Resources\UIStart.png" />
+    <None Remove="05-Resources\UIStop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="05-Resources\gec_lab.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="05-Resources\digital0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\digital1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIAdd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdonisUI" Version="1.17.1" />
+    <PackageReference Include="AdonisUI.ClassicTheme" Version="1.17.1" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc2" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Panuon.WPF.UI" Version="1.2.4.7" />
+    <PackageReference Include="PP.Wpf" Version="1.0.8" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+    <PackageReference Include="PropertyTools" Version="3.1.0" />
+    <PackageReference Include="ScottPlot.WPF" Version="5.0.39" />
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.4.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="05-Resources\color.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIclear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIcopy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIdelete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIdone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIedit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIEdit2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIReset.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIStart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="05-Resources\UIStop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="03-UserControl\BasicComponent\SeqGeneratorChannel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="setup\" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(ProjectDir)05-Resources\MCU&quot; &quot;bin\publish\MCU&quot; /s /e /y /i&#xD;&#xA;set d=%25date:~,4%25%25date:~5,2%25%25date:~8,2%25&#xD;&#xA;echo %25d%25 &gt; bin\publish\DATE" />
+  </Target>
+
+</Project>

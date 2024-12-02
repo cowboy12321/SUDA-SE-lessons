@@ -1,0 +1,718 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+                              ./obj/printf.o (__udivdi3)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+                              ./obj/printf.o (__umoddi3)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+                              ./obj/printf.o (__nedf2)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+                              ./obj/printf.o (__ltdf2)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+                              ./obj/printf.o (__muldf3)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+                              ./obj/printf.o (__subdf3)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+                              ./obj/printf.o (__fixunsdfdi)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+                              ./obj/printf.o (__floatundidf)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                              d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o) (__clz_tab)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                              d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o) (__clzsi2)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+                              ./obj/printf.o (memset)
+d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+                              ./obj/uart.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+rfsend              0xfa              ./obj/rf.o
+rftaskID            0x1               ./obj/rf.o
+rflength            0x1               ./obj/rf.o
+gTime               0x3               ./obj/main.o
+component_fun       0x4               ./obj/main.o
+data                0xa               ./obj/rf.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./obj/SysTick.o
+ .data          0x0000000000000000        0x0 ./obj/SysTick.o
+ .bss           0x0000000000000000        0x0 ./obj/SysTick.o
+ .text          0x0000000000000000        0x0 ./obj/main.o
+ .data          0x0000000000000000        0x0 ./obj/main.o
+ .bss           0x0000000000000000        0x0 ./obj/main.o
+ .text          0x0000000000000000        0x0 ./obj/flash.o
+ .data          0x0000000000000000        0x0 ./obj/flash.o
+ .bss           0x0000000000000000        0x0 ./obj/flash.o
+ .text.flash_init
+                0x0000000000000000       0x20 ./obj/flash.o
+ .text.flash_write_sect
+                0x0000000000000000       0x28 ./obj/flash.o
+ .text.flash_write_physical
+                0x0000000000000000       0x2c ./obj/flash.o
+ .text.flash_read_physical
+                0x0000000000000000       0x20 ./obj/flash.o
+ .text.flash_isempty
+                0x0000000000000000       0x24 ./obj/flash.o
+ .text.flash_write_DoubleWord
+                0x0000000000000000       0x42 ./obj/flash.o
+ .text          0x0000000000000000        0x0 ./obj/gpio.o
+ .data          0x0000000000000000        0x0 ./obj/gpio.o
+ .bss           0x0000000000000000        0x0 ./obj/gpio.o
+ .text.gpio_get
+                0x0000000000000000       0x98 ./obj/gpio.o
+ .text.gpio_reverse
+                0x0000000000000000       0x7e ./obj/gpio.o
+ .text.gpio_pull
+                0x0000000000000000       0xae ./obj/gpio.o
+ .text.gpio_enable_int
+                0x0000000000000000      0x1ea ./obj/gpio.o
+ .text.gpio_get_int
+                0x0000000000000000       0x5c ./obj/gpio.o
+ .text.gpio_clear_int
+                0x0000000000000000       0x5e ./obj/gpio.o
+ .text.gpio_get_port_pin
+                0x0000000000000000        0xe ./obj/gpio.o
+ .text          0x0000000000000000        0x0 ./obj/rf.o
+ .data          0x0000000000000000        0x0 ./obj/rf.o
+ .bss           0x0000000000000000        0x0 ./obj/rf.o
+ .text.RF_Init  0x0000000000000000       0x9e ./obj/rf.o
+ .text.GetRFAddr
+                0x0000000000000000       0xac ./obj/rf.o
+ .text.RF_Tx_Data
+                0x0000000000000000       0x54 ./obj/rf.o
+ .rodata.GetRFAddr.str1.4
+                0x0000000000000000       0x53 ./obj/rf.o
+ .debug_info    0x0000000000000000      0xde2 ./obj/rf.o
+ .debug_abbrev  0x0000000000000000      0x2ae ./obj/rf.o
+ .debug_loc     0x0000000000000000      0x12e ./obj/rf.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./obj/rf.o
+ .debug_ranges  0x0000000000000000       0x20 ./obj/rf.o
+ .debug_line    0x0000000000000000      0x607 ./obj/rf.o
+ .debug_str     0x0000000000000000      0x8ab ./obj/rf.o
+ .comment       0x0000000000000000       0x34 ./obj/rf.o
+ .debug_frame   0x0000000000000000       0x78 ./obj/rf.o
+ COMMON         0x0000000000000000      0x106 ./obj/rf.o
+ .text          0x0000000000000000        0x0 ./obj/gec.o
+ .data          0x0000000000000000        0x0 ./obj/gec.o
+ .bss           0x0000000000000000        0x0 ./obj/gec.o
+ .text.SYS_ResetExecute
+                0x0000000000000000       0x44 ./obj/gec.o
+ .text          0x0000000000000000        0x0 ./obj/uart.o
+ .data          0x0000000000000000        0x0 ./obj/uart.o
+ .bss           0x0000000000000000        0x0 ./obj/uart.o
+ .text.uart_sendN
+                0x0000000000000000      0x146 ./obj/uart.o
+ .text.uart_send_string
+                0x0000000000000000      0x122 ./obj/uart.o
+ .text.uart_reN
+                0x0000000000000000       0x54 ./obj/uart.o
+ .text.uart_disable_re_int
+                0x0000000000000000       0xa6 ./obj/uart.o
+ .text.uart_deinit
+                0x0000000000000000      0x148 ./obj/uart.o
+ .text.uart_is_uartNo
+                0x0000000000000000        0x6 ./obj/uart.o
+ .data.table_irq_uart
+                0x0000000000000000       0x10 ./obj/uart.o
+ .text          0x0000000000000000        0x0 ./obj/isr.o
+ .data          0x0000000000000000        0x0 ./obj/isr.o
+ .bss           0x0000000000000000        0x0 ./obj/isr.o
+ .text          0x0000000000000000        0x0 ./obj/core_riscv.o
+ .data          0x0000000000000000        0x0 ./obj/core_riscv.o
+ .bss           0x0000000000000000        0x0 ./obj/core_riscv.o
+ .text.__get_FFLAGS
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_FFLAGS
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_FRM
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_FRM
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_FCSR
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_FCSR
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MIE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MIE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MTVAL
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MTVAL
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MIP
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MIP
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MCYCLE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MCYCLE
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MCYCLEH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MCYCLEH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MINSTRET
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MINSTRET
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MINSTRETH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__set_MINSTRETH
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000        0x6 ./obj/core_riscv.o
+ .debug_info    0x0000000000000000      0x61c ./obj/core_riscv.o
+ .debug_abbrev  0x0000000000000000      0x10d ./obj/core_riscv.o
+ .debug_aranges
+                0x0000000000000000      0x138 ./obj/core_riscv.o
+ .debug_ranges  0x0000000000000000      0x128 ./obj/core_riscv.o
+ .debug_line    0x0000000000000000      0x70f ./obj/core_riscv.o
+ .debug_str     0x0000000000000000      0x3bc ./obj/core_riscv.o
+ .comment       0x0000000000000000       0x34 ./obj/core_riscv.o
+ .debug_frame   0x0000000000000000      0x250 ./obj/core_riscv.o
+ .text          0x0000000000000000        0x0 ./obj/printf.o
+ .data          0x0000000000000000        0x0 ./obj/printf.o
+ .bss           0x0000000000000000        0x0 ./obj/printf.o
+ .text          0x0000000000000000        0x0 ./obj/startup_CH573.o
+ .data          0x0000000000000000        0x0 ./obj/startup_CH573.o
+ .bss           0x0000000000000000        0x0 ./obj/startup_CH573.o
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x28 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+ .eh_frame      0x0000000000000000       0x28 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+INIT             0x0000000000012000 0x0000000000001000 xr
+FLASH            0x0000000000013000 0x0000000000012000 xr
+RAM              0x0000000020005600 0x0000000000002a00 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./obj/SysTick.o
+LOAD ./obj/main.o
+LOAD ./obj/flash.o
+LOAD ./obj/gpio.o
+LOAD ./obj/rf.o
+LOAD ./obj/gec.o
+LOAD ./obj/uart.o
+LOAD ./obj/isr.o
+LOAD ./obj/core_riscv.o
+LOAD ./obj/printf.o
+LOAD ./obj/startup_CH573.o
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+START GROUP
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a
+END GROUP
+                0x0000000000001000                MCU_SECTORSIZE = 0x1000
+                0x0000000000000000                MCU_FLASH_ADDR_START = 0x0
+                0x0000000000000012                GEC_USER_SECTOR_START = 0x12
+                0x0000000000000025                GEC_USER_SECTOR_END = 0x25
+                0x0000000020005600                GEC_USER_RAM_START = 0x20005600
+                0x0000000020007fff                GEC_USER_RAM_END = 0x20007fff
+
+.init           0x0000000000012000        0x4
+                0x0000000000012000                _sinit = .
+                0x0000000000012000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000012000        0x4 ./obj/startup_CH573.o
+                0x0000000000012000                _start
+                0x0000000000012004                . = ALIGN (0x4)
+                0x0000000000012004                _einit = .
+
+.vector         0x0000000000012004       0xe8
+                0x0000000000012004                . = ALIGN (0x4)
+ *(.vector)
+ .vector        0x0000000000012004       0x90 ./obj/startup_CH573.o
+                0x0000000000012094                . = ALIGN (0x4)
+ *(.vector_handler)
+ .vector_handler
+                0x0000000000012094       0x58 ./obj/startup_CH573.o
+                0x0000000000012094                NMI_Handler
+                0x0000000000012098                HardFault_Handler
+                0x00000000000120a0                SW_Handler
+                0x00000000000120a4                TMR0_IRQHandler
+                0x00000000000120a8                GPIOA_IRQHandler
+                0x00000000000120ac                GPIOB_IRQHandler
+                0x00000000000120b0                SPI0_IRQHandler
+                0x00000000000120b4                BB_IRQHandler
+                0x00000000000120b8                LLE_IRQHandler
+                0x00000000000120bc                USB_IRQHandler
+                0x00000000000120c0                TMR1_IRQHandler
+                0x00000000000120c4                TMR2_IRQHandler
+                0x00000000000120cc                UART1_IRQHandler
+                0x00000000000120d0                RTC_IRQHandler
+                0x00000000000120d4                ADC_IRQHandler
+                0x00000000000120d8                PWMX_IRQHandler
+                0x00000000000120dc                TMR3_IRQHandler
+                0x00000000000120e0                UART2_IRQHandler
+                0x00000000000120e4                UART3_IRQHandler
+                0x00000000000120e8                WDOG_BAT_IRQHandler
+                0x00000000000120ec                . = ALIGN (0x4)
+
+.highcodelalign
+                0x0000000000013000        0x0
+                0x0000000000013000                . = ALIGN (0x4)
+                0x0000000000013000                PROVIDE (_highcode_lma = .)
+
+.highcode       0x0000000020005600        0x0 load address 0x0000000000013000
+                0x0000000020005600                . = ALIGN (0x4)
+                0x0000000020005600                PROVIDE (_highcode_vma_start = .)
+ *(.highcode)
+                0x0000000020005600                . = ALIGN (0x4)
+ *(.highcode.*)
+                0x0000000020005600                PROVIDE (_highcode_vma_end = .)
+                0x0000000020005600                . = ALIGN (0x4)
+
+.text           0x0000000000013000     0x34e0
+                0x0000000000013000                . = ALIGN (0x4)
+ *(SORT_NONE(.handle_reset))
+ .handle_reset  0x0000000000013000       0xc0 ./obj/startup_CH573.o
+                0x0000000000013000                handle_reset
+ *(.text)
+ .text          0x00000000000130c0       0xa8 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-memset.o)
+                0x00000000000130c0                memset
+                0x0000000000013168                . = ALIGN (0x4)
+ *(.text.*)
+ .text.systick_init
+                0x0000000000013168       0x54 ./obj/SysTick.o
+                0x0000000000013168                systick_init
+ .text.systick_clear_int
+                0x00000000000131bc        0xa ./obj/SysTick.o
+                0x00000000000131bc                systick_clear_int
+ .text.main     0x00000000000131c6      0x196 ./obj/main.o
+                0x00000000000131c6                main
+ .text.flash_erase
+                0x000000000001335c       0x26 ./obj/flash.o
+                0x000000000001335c                flash_erase
+ .text.flash_Best
+                0x0000000000013382       0x28 ./obj/flash.o
+                0x0000000000013382                flash_Best
+ .text.flash_read_logic
+                0x00000000000133aa       0x26 ./obj/flash.o
+                0x00000000000133aa                flash_read_logic
+ .text.flash_write
+                0x00000000000133d0       0xcc ./obj/flash.o
+                0x00000000000133d0                flash_write
+ .text.gpio_set
+                0x000000000001349c       0x72 ./obj/gpio.o
+                0x000000000001349c                gpio_set
+ .text.gpio_init
+                0x000000000001350e       0x7e ./obj/gpio.o
+                0x000000000001350e                gpio_init
+ .text.IRQ_OPC_CHANGE
+                0x000000000001358c       0xb8 ./obj/gec.o
+                0x000000000001358c                IRQ_OPC_CHANGE
+ .text.Vectors_Init
+                0x0000000000013644       0x64 ./obj/gec.o
+                0x0000000000013644                Vectors_Init
+ .text.uart_init
+                0x00000000000136a8      0x228 ./obj/uart.o
+                0x00000000000136a8                uart_init
+ .text.uart_send1
+                0x00000000000138d0      0x10e ./obj/uart.o
+                0x00000000000138d0                uart_send1
+ .text.uart_re1
+                0x00000000000139de       0x7e ./obj/uart.o
+                0x00000000000139de                uart_re1
+ .text.uart_enable_re_int
+                0x0000000000013a5c       0xc6 ./obj/uart.o
+                0x0000000000013a5c                uart_enable_re_int
+ .text.uart_get_re_int
+                0x0000000000013b22      0x116 ./obj/uart.o
+                0x0000000000013b22                uart_get_re_int
+ .text.UART0_IRQHandler
+                0x0000000000013c38       0x42 ./obj/isr.o
+                0x0000000000013c38                UART0_IRQHandler
+ .text.SecAdd1  0x0000000000013c7a       0x56 ./obj/isr.o
+                0x0000000000013c7a                SecAdd1
+ .text.SysTick_Handler
+                0x0000000000013cd0       0x4a ./obj/isr.o
+                0x0000000000013cd0                SysTick_Handler
+ .text.printk_putc
+                0x0000000000013d1a       0x3c ./obj/printf.o
+ .text.printk_mknumstr
+                0x0000000000013d56       0x82 ./obj/printf.o
+ .text.printk_pad_space
+                0x0000000000013dd8       0x3c ./obj/printf.o
+ .text.out_char
+                0x0000000000013e14       0x18 ./obj/printf.o
+                0x0000000000013e14                out_char
+ .text.printk_mkfloatstr
+                0x0000000000013e2c      0x2e8 ./obj/printf.o
+                0x0000000000013e2c                printk_mkfloatstr
+ .text.printk   0x0000000000014114      0x6e2 ./obj/printf.o
+                0x0000000000014114                printk
+ .text.myprintf
+                0x00000000000147f6       0x36 ./obj/printf.o
+                0x00000000000147f6                myprintf
+ .text.__udivdi3
+                0x000000000001482c      0x398 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_udivdi3.o)
+                0x000000000001482c                __udivdi3
+ .text.__umoddi3
+                0x0000000000014bc4      0x38e d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_umoddi3.o)
+                0x0000000000014bc4                __umoddi3
+ .text.__eqdf2  0x0000000000014f52       0x6a d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+                0x0000000000014f52                __nedf2
+                0x0000000000014f52                __eqdf2
+ .text.__ledf2  0x0000000000014fbc       0xb6 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+                0x0000000000014fbc                __ledf2
+                0x0000000000014fbc                __ltdf2
+ .text.__muldf3
+                0x0000000000015072      0x4c8 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+                0x0000000000015072                __muldf3
+ .text.__subdf3
+                0x000000000001553a      0x746 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+                0x000000000001553a                __subdf3
+ .text.__fixunsdfdi
+                0x0000000000015c80       0x9e d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+                0x0000000000015c80                __fixunsdfdi
+ .text.__floatundidf
+                0x0000000000015d1e      0x194 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+                0x0000000000015d1e                __floatundidf
+ .text.__clzsi2
+                0x0000000000015eb2       0x76 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+                0x0000000000015eb2                __clzsi2
+ .text.strlen   0x0000000000015f28       0x12 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)
+                0x0000000000015f28                strlen
+                0x0000000000015f3c                . = ALIGN (0x4)
+ *fill*         0x0000000000015f3a        0x2 
+ *(.rodata)
+                0x0000000000015f3c                . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x0000000000015f3c      0x286 ./obj/main.o
+                                        0x28a (size before relaxing)
+ *fill*         0x00000000000161c2        0x2 
+ .rodata.Vectors_Init.str1.4
+                0x00000000000161c4       0x30 ./obj/gec.o
+                                         0x2f (size before relaxing)
+ .rodata.uart_get_re_int
+                0x00000000000161f4       0xd0 ./obj/uart.o
+ .rodata.printk
+                0x00000000000162c4       0xc8 ./obj/printf.o
+ *fill*         0x000000000001638c        0x4 
+ .rodata.printk_mkfloatstr.cst8
+                0x0000000000016390       0x10 ./obj/printf.o
+ .rodata.__muldf3
+                0x00000000000163a0       0x40 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .rodata.__clz_tab
+                0x00000000000163e0      0x100 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x00000000000163e0                __clz_tab
+                0x00000000000164e0                . = ALIGN (0x4)
+ *(.sdata2.*)
+                0x00000000000164e0                . = ALIGN (0x4)
+ *(.glue_7)
+                0x00000000000164e0                . = ALIGN (0x4)
+ *(.glue_7t)
+                0x00000000000164e0                . = ALIGN (0x4)
+ *(.gnu.linkonce.t.*)
+                0x00000000000164e0                . = ALIGN (0x4)
+
+.rela.dyn       0x00000000000164e0        0x0
+ .rela.text.main
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.text.flash_erase
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.text.flash_Best
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.text.IRQ_OPC_CHANGE
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.text.Vectors_Init
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.text.SysTick_Handler
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.init     0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.vector   0x00000000000164e0        0x0 ./obj/SysTick.o
+ .rela.handle_reset
+                0x00000000000164e0        0x0 ./obj/SysTick.o
+
+.fini           0x00000000000164e0        0x0
+ *(SORT_NONE(.fini))
+                0x00000000000164e0                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x00000000000164e0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000000164e0        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000000164e0        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x0000000020005600       0x80 load address 0x00000000000164e0
+                0x0000000020005680                . = (ORIGIN (RAM) + MAX (0x80, SIZEOF (.highcode)))
+ *fill*         0x0000000020005600       0x80 
+
+.dlalign        0x00000000000164e0        0x0
+                0x00000000000164e0                . = ALIGN (0x4)
+                0x00000000000164e0                PROVIDE (_data_lma = .)
+
+.data           0x0000000020005680        0x0 load address 0x00000000000164e0
+                0x0000000020005680                PROVIDE (_data_vma = .)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x0000000020005680                . = ALIGN (0x8)
+                0x0000000020005e80                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000020005680                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000020005680                . = ALIGN (0x4)
+                0x0000000020005680                PROVIDE (_edata = .)
+
+.bss            0x0000000020005680        0xc load address 0x00000000000164e0
+                0x0000000020005680                . = ALIGN (0x4)
+                0x0000000020005680                PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.SysTickCount.3172
+                0x0000000020005680        0x1 ./obj/isr.o
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+ *fill*         0x0000000020005681        0x3 
+ COMMON         0x0000000020005684        0x8 ./obj/main.o
+                0x0000000020005684                gTime
+                0x0000000020005688                component_fun
+                0x000000002000568c                . = ALIGN (0x4)
+                0x000000002000568c                PROVIDE (_ebss = .)
+                [!provide]                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020008000        0x0
+                0x0000000020008000                . = ALIGN (0x4)
+                0x0000000020008000                PROVIDE (_eusrstack = .)
+OUTPUT(SysTick-CH573.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x6667
+ .debug_info    0x0000000000000000      0x45f ./obj/SysTick.o
+ .debug_info    0x000000000000045f      0xba9 ./obj/main.o
+ .debug_info    0x0000000000001008      0xf46 ./obj/flash.o
+ .debug_info    0x0000000000001f4e      0x8d2 ./obj/gpio.o
+ .debug_info    0x0000000000002820      0xc09 ./obj/gec.o
+ .debug_info    0x0000000000003429     0x1152 ./obj/uart.o
+ .debug_info    0x000000000000457b      0xa8a ./obj/isr.o
+ .debug_info    0x0000000000005005     0x1640 ./obj/printf.o
+ .debug_info    0x0000000000006645       0x22 ./obj/startup_CH573.o
+
+.debug_abbrev   0x0000000000000000     0x166b
+ .debug_abbrev  0x0000000000000000      0x187 ./obj/SysTick.o
+ .debug_abbrev  0x0000000000000187      0x23d ./obj/main.o
+ .debug_abbrev  0x00000000000003c4      0x2f9 ./obj/flash.o
+ .debug_abbrev  0x00000000000006bd      0x2a0 ./obj/gpio.o
+ .debug_abbrev  0x000000000000095d      0x2bf ./obj/gec.o
+ .debug_abbrev  0x0000000000000c1c      0x404 ./obj/uart.o
+ .debug_abbrev  0x0000000000001020      0x264 ./obj/isr.o
+ .debug_abbrev  0x0000000000001284      0x3d5 ./obj/printf.o
+ .debug_abbrev  0x0000000000001659       0x12 ./obj/startup_CH573.o
+
+.debug_loc      0x0000000000000000     0x3048
+ .debug_loc     0x0000000000000000       0x93 ./obj/SysTick.o
+ .debug_loc     0x0000000000000093       0x6f ./obj/main.o
+ .debug_loc     0x0000000000000102      0x6eb ./obj/flash.o
+ .debug_loc     0x00000000000007ed      0x9a2 ./obj/gpio.o
+ .debug_loc     0x000000000000118f      0x271 ./obj/gec.o
+ .debug_loc     0x0000000000001400      0x8a8 ./obj/uart.o
+ .debug_loc     0x0000000000001ca8       0x13 ./obj/isr.o
+ .debug_loc     0x0000000000001cbb     0x138d ./obj/printf.o
+
+.debug_aranges  0x0000000000000000      0x268
+ .debug_aranges
+                0x0000000000000000       0x28 ./obj/SysTick.o
+ .debug_aranges
+                0x0000000000000028       0x20 ./obj/main.o
+ .debug_aranges
+                0x0000000000000048       0x68 ./obj/flash.o
+ .debug_aranges
+                0x00000000000000b0       0x60 ./obj/gpio.o
+ .debug_aranges
+                0x0000000000000110       0x30 ./obj/gec.o
+ .debug_aranges
+                0x0000000000000140       0x70 ./obj/uart.o
+ .debug_aranges
+                0x00000000000001b0       0x30 ./obj/isr.o
+ .debug_aranges
+                0x00000000000001e0       0x50 ./obj/printf.o
+ .debug_aranges
+                0x0000000000000230       0x38 ./obj/startup_CH573.o
+
+.debug_ranges   0x0000000000000000      0x240
+ .debug_ranges  0x0000000000000000       0x18 ./obj/SysTick.o
+ .debug_ranges  0x0000000000000018       0x10 ./obj/main.o
+ .debug_ranges  0x0000000000000028       0x58 ./obj/flash.o
+ .debug_ranges  0x0000000000000080       0x50 ./obj/gpio.o
+ .debug_ranges  0x00000000000000d0       0x20 ./obj/gec.o
+ .debug_ranges  0x00000000000000f0       0x60 ./obj/uart.o
+ .debug_ranges  0x0000000000000150       0x20 ./obj/isr.o
+ .debug_ranges  0x0000000000000170       0xa0 ./obj/printf.o
+ .debug_ranges  0x0000000000000210       0x30 ./obj/startup_CH573.o
+
+.debug_line     0x0000000000000000     0x5d6b
+ .debug_line    0x0000000000000000      0x324 ./obj/SysTick.o
+ .debug_line    0x0000000000000324      0x609 ./obj/main.o
+ .debug_line    0x000000000000092d      0x64d ./obj/flash.o
+ .debug_line    0x0000000000000f7a      0xe3c ./obj/gpio.o
+ .debug_line    0x0000000000001db6      0x6b5 ./obj/gec.o
+ .debug_line    0x000000000000246b     0x191a ./obj/uart.o
+ .debug_line    0x0000000000003d85      0x5f5 ./obj/isr.o
+ .debug_line    0x000000000000437a     0x17b2 ./obj/printf.o
+ .debug_line    0x0000000000005b2c      0x23f ./obj/startup_CH573.o
+
+.debug_str      0x0000000000000000      0xcdb
+ .debug_str     0x0000000000000000      0x3b6 ./obj/SysTick.o
+                                        0x409 (size before relaxing)
+ .debug_str     0x00000000000003b6      0x432 ./obj/main.o
+                                        0x632 (size before relaxing)
+ .debug_str     0x00000000000007e8      0x107 ./obj/flash.o
+                                        0x70b (size before relaxing)
+ .debug_str     0x00000000000008ef       0xa0 ./obj/gpio.o
+                                        0x489 (size before relaxing)
+ .debug_str     0x000000000000098f       0x83 ./obj/gec.o
+                                        0x78f (size before relaxing)
+ .debug_str     0x0000000000000a12       0xbf ./obj/uart.o
+                                        0x8a8 (size before relaxing)
+ .debug_str     0x0000000000000ad1       0x65 ./obj/isr.o
+                                        0x670 (size before relaxing)
+ .debug_str     0x0000000000000b36      0x184 ./obj/printf.o
+                                        0x797 (size before relaxing)
+ .debug_str     0x0000000000000cba       0x21 ./obj/startup_CH573.o
+                                         0xa4 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./obj/SysTick.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./obj/main.o
+ .comment       0x0000000000000033       0x34 ./obj/flash.o
+ .comment       0x0000000000000033       0x34 ./obj/gpio.o
+ .comment       0x0000000000000033       0x34 ./obj/gec.o
+ .comment       0x0000000000000033       0x34 ./obj/uart.o
+ .comment       0x0000000000000033       0x34 ./obj/isr.o
+ .comment       0x0000000000000033       0x34 ./obj/printf.o
+
+.debug_frame    0x0000000000000000      0x6d0
+ .debug_frame   0x0000000000000000       0x30 ./obj/SysTick.o
+ .debug_frame   0x0000000000000030       0x38 ./obj/main.o
+ .debug_frame   0x0000000000000068      0x138 ./obj/flash.o
+ .debug_frame   0x00000000000001a0       0xb0 ./obj/gpio.o
+ .debug_frame   0x0000000000000250       0x5c ./obj/gec.o
+ .debug_frame   0x00000000000002ac      0x104 ./obj/uart.o
+ .debug_frame   0x00000000000003b0       0x4c ./obj/isr.o
+ .debug_frame   0x00000000000003fc      0x14c ./obj/printf.o
+ .debug_frame   0x0000000000000548       0x20 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000000568       0x20 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000588       0x54 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_frame   0x00000000000005dc       0x44 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000000620       0x20 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(fixunsdfdi.o)
+ .debug_frame   0x0000000000000640       0x50 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(floatundidf.o)
+ .debug_frame   0x0000000000000690       0x20 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000000000006b0       0x20 d:/ahl-gec-vscode-ide/ahl-gec-vscode-ide/gcc/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libg_nano.a(lib_a-strlen.o)

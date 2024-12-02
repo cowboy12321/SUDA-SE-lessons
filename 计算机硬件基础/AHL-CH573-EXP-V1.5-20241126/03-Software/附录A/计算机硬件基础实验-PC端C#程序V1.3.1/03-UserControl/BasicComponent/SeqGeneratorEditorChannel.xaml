@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="GEC_LAB._03_UserControl.BasicComponent.SeqGeneratorEditorChannel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GEC_LAB._03_UserControl.BasicComponent"
+             xmlns:pu="https://opensource.panuon.com/wpf-ui"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="700">
+    <Border Background="Transparent" BorderThickness="0 0.5" BorderBrush="Black" >
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" MaxWidth="90"/>
+                <ColumnDefinition Width="14*"/>
+                <ColumnDefinition Width="3*" MaxWidth="90"/>
+                <ColumnDefinition Width="2*" MaxWidth="60"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" x:Name="txtName" BorderThickness="0" Background="Transparent" 
+                     pu:TextBoxHelper.Watermark="设置名字" pu:WatermarkHelper.FontSize="10" 
+                     Text="通道" TextWrapping="Wrap" />
+            <TextBox Grid.Column="1" x:Name="txtSeq" BorderThickness="0" Background="Transparent" 
+                     pu:TextBoxHelper.Watermark="点此处设置序列" pu:WatermarkHelper.FontSize="16" 
+                     VerticalAlignment="Center" 
+                       FontSize="25" />
+            <ComboBox Grid.Column="2" x:Name="comboPin"/>
+            <Button x:Name="btnDelete" Grid.Column="3" Background="Transparent" Width="22" Padding="0" ToolTip="删除该通道" Cursor="Hand" >
+                <Image Source="pack://application:,,,/05-Resources/UIdelete.png" Height="17"/>
+            </Button>
+        </Grid>
+    </Border>
+</UserControl>
